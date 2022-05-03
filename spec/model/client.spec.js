@@ -1,4 +1,4 @@
-const Client = require('../../model')
+const Client = require('../../model/client')
 
 describe('Clients', () => {
     beforeEach(()=>{
