@@ -1,15 +1,15 @@
 module.exports = class Client {
     constructor() {
-        id = 0;
-        name = "";
-        phone = "";
+        this.id = 0;
+        this.name = "";
+        this.phone = "";
     }
-    
+
     static getFirst() {
         return new Client();
     }
 
-    static nameToUpper() {
+    nameToUpper() {
         return this.name.toUpperCase();
     }
 
