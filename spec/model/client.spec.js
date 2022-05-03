@@ -16,4 +16,10 @@ describe('Clients', () => {
     expect(client.name).not.toBeUndefined();
     expect(client.phone).not.toBeUndefined();
     });
+
+    it('Name to upper', () => {
+        let client = client.getFirst();
+        client.name = "asdf";
+        expect(client.nameToUpper()).toEqual("ASDF");
+    })
 })
