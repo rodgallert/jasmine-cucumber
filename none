@@ -1,0 +1,65 @@
+[33mcommit f0ab6aafd33c77748c1c395f287762c3580d8445[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31mjasmine/jasmine[m[33m)[m
+Author: rodgallert <rodrigo.gallert96@gmail.com>
+Date:   Tue May 3 04:19:34 2022 -0300
+
+    fix: adjusted nameToUpper() method to non-static
+
+[33mcommit 54223c3890f501ecfd283dfd1877186819f75223[m
+Author: rodgallert <rodrigo.gallert96@gmail.com>
+Date:   Tue May 3 04:09:43 2022 -0300
+
+    fix: added constructor to client.js
+
+[33mcommit aa6be1403aaca8a8dea862cd5b2a4add68aa71b9[m
+Author: rodgallert <rodrigo.gallert96@gmail.com>
+Date:   Tue May 3 04:08:23 2022 -0300
+
+    fix: added proper require to client.spec.js
+
+[33mcommit 00b83089b72c59a1262f3c2c06d929631b61f316[m
+Author: rodgallert <rodrigo.gallert96@gmail.com>
+Date:   Tue May 3 04:04:57 2022 -0300
+
+    feat: implemented method returnAll(), which creates 10 new instances of Client
+
+[33mcommit ca12ef64d017eb58b3b9524edaa3981615d3eee9[m
+Author: rodgallert <rodrigo.gallert96@gmail.com>
+Date:   Tue May 3 04:03:12 2022 -0300
+
+    feat: implemented method nameToUpper(), which returns the client's name in upper case
+
+[33mcommit 13dd76282e96ed40fb156013c583fff7e2c9a9c3[m
+Author: rodgallert <rodrigo.gallert96@gmail.com>
+Date:   Tue May 3 04:02:20 2022 -0300
+
+    feat: added Client class and getFirst() method, which creates a new instance of Client
+
+[33mcommit a01a547536f0e6f898f2af0dd9a42fef4db1eb3b[m
+Author: rodgallert <rodrigo.gallert96@gmail.com>
+Date:   Tue May 3 03:59:41 2022 -0300
+
+    feat: added test for nameToUpper() method
+
+[33mcommit f5536f84dc28300445c2c318bf6d12b101e95738[m
+Author: rodgallert <rodrigo.gallert96@gmail.com>
+Date:   Tue May 3 03:57:56 2022 -0300
+
+    feat: implemented test for getFirst() method
+
+[33mcommit fb20689c94a6351fa1afc29c62fa2a0c88313872[m
+Author: rodgallert <rodrigo.gallert96@gmail.com>
+Date:   Tue May 3 03:53:53 2022 -0300
+
+    feat: test to returnAll method
+
+[33mcommit a8191443c3b5dfa055cda517655e55749ae9f4fa[m
+Author: rodgallert <rodrigo.gallert96@gmail.com>
+Date:   Tue May 3 03:47:22 2022 -0300
+
+    added jasmine
+
+[33mcommit 1a2a0c4c59d6191e98ffc77f4fc0e69462fd09d9[m
+Author: rodgallert <rodrigo.gallert96@gmail.com>
+Date:   Tue May 3 03:23:14 2022 -0300
+
+    Initial commit
