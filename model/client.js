@@ -6,4 +6,8 @@ module.exports = class Client{
     static getFirst(){
         return new Client();
     }
+
+    static nameToUpper(){
+        return this.name.toUpperCase();
+    }
 }
