@@ -27,6 +27,7 @@ When('I access the home page', async function () {
 });
 
 Then('List {string} clients', async function (qty) {
-    assert(await driver.findElement(By.Name('tr')).length.toBeEqual(10));
-    driver.quit();
+    let qtt = await driver.findElements(By.css('tbody tr'));
+    assert.equal(qtt.length, parseInt(qty));
+    await driver.quit();
 });
