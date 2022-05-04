@@ -1,8 +1,8 @@
 module.exports = class Client {
-    constructor() {
-        this.id = 0;
-        this.name = "";
-        this.phone = "";
+    constructor(id, name, phone) {
+        this.Id = id;
+        this.Name = name;
+        this.Phone = phone;
     }
 
     static getFirst() {
@@ -15,16 +15,16 @@ module.exports = class Client {
 
     static returnAll() {
         return [
-            new Client(),
-            new Client(),
-            new Client(),
-            new Client(),
-            new Client(),
-            new Client(),
-            new Client(),
-            new Client(),
-            new Client(),
-            new Client()
+            new Client(0, "aaa", "9999-9999"),
+            new Client(0, "aaa", "9999-9999"),
+            new Client(0, "aaa", "9999-9999"),
+            new Client(0, "aaa", "9999-9999"),
+            new Client(0, "aaa", "9999-9999"),
+            new Client(0, "aaa", "9999-9999"),
+            new Client(0, "aaa", "9999-9999"),
+            new Client(0, "aaa", "9999-9999"),
+            new Client(0, "aaa", "9999-9999"),
+            new Client(0, "aaa", "9999-9999")
         ]
     }
 }
