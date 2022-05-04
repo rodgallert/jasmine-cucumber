@@ -23,9 +23,10 @@ Given('I have {string} clients in the database', function (qty) {
 
 When('I access the home page', async function () {
     await driver.get('http://localhost:3001');
-    await driver.sleep(1000)
+    await driver.sleep(1000);
 });
 
 Then('List {string} clients', async function (qty) {
-    assert(await driver.findElement(By.tagName('tr')).length.toBeEqual(10));
+    assert(await driver.findElement(By.Name('tr')).length.toBeEqual(10));
+    driver.quit();
 });
