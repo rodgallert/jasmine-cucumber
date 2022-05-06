@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "tdd": "node g./node_modules/bin/jest",
+    "tdd": "node ./node_modules/bin/jest",
     "bdd": "node ./node_modules/cucumber/bin/cucumber-js features/*.feature"
   },
   "dependencies": {

@@ -6,11 +6,12 @@ module.exports = class Client {
     }
 
     static getFirst() {
-        return new Client();
+        let c = new Client(0,'asdf', 'asdf');
+        return c;
     }
 
     nameToUpper() {
-        return this.name.toUpperCase();
+        return this.Name.toUpperCase();
     }
 
     static returnAll() {
